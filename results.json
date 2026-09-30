@@ -1,0 +1,65 @@
+{
+  "artifact_status": "proposal_for_review_not_published",
+  "evaluation": "BUB × IFEval",
+  "qualification": "This is an aggregate evaluation of 540 valid responses from all 541 attempted IFEval prompts. It is not presented as a complete official 541-response IFEval score because one provider request ended in a preserved transport failure and was never retried.",
+  "benchmark_prompts": 541,
+  "benchmark_instruction_instances": 834,
+  "attempted_prompts": 541,
+  "valid_scorable_responses": 540,
+  "scored_instruction_instances": 833,
+  "operational_failure_count": 1,
+  "unattempted_prompts": 0,
+  "coverage_percent": 99.8152,
+  "primary_process": 1,
+  "primary_results": {
+    "strict": {
+      "prompt_pass": 441,
+      "prompt_total": 540,
+      "instruction_pass": 722,
+      "instruction_total": 833,
+      "prompt_percent": 81.67,
+      "instruction_percent": 86.67
+    },
+    "loose": {
+      "prompt_pass": 463,
+      "prompt_total": 540,
+      "instruction_pass": 750,
+      "instruction_total": 833,
+      "prompt_percent": 85.74,
+      "instruction_percent": 90.04
+    }
+  },
+  "token_limit_completions": {
+    "count": 6,
+    "scored_exact_returned_text": true,
+    "retried": false
+  },
+  "operational_failure": {
+    "case_id": "ifeval-1251",
+    "classification": "incomplete_transport_stream",
+    "preserved": true,
+    "retried": false,
+    "included_in_scoring": false
+  },
+  "scorer_repeatability": {
+    "processes": 5,
+    "first_process_remains_primary": true,
+    "strict_prompt_pass_range": [
+      439,
+      441
+    ],
+    "strict_instruction_pass_range": [
+      720,
+      722
+    ],
+    "loose_prompt_pass_range": [
+      463,
+      464
+    ],
+    "loose_instruction_pass_range": [
+      750,
+      751
+    ],
+    "interpretation": "Observed scorer variability on identical saved responses; not model reruns."
+  }
+}

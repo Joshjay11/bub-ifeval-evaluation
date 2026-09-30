@@ -1,0 +1,23 @@
+{
+  "repository": "https://github.com/google-research/google-research",
+  "commit": "e6890f85757dd84e27ca6df2dd30651dafad28e0",
+  "citation": "Zhou et al. (2023), Instruction-Following Evaluation for Large Language Models, arXiv:2311.07911",
+  "dataset_sha256": "67ffeee0fcb87c317c5b08a2de85557b4a7e96ada6178aa645b4954fe4b53d49",
+  "benchmark": "IFEval",
+  "version_description": "Upstream commit pinned; ifeval-v1 is a local bundle label, not an official release number.",
+  "source_url": "https://github.com/google-research/google-research/tree/e6890f85757dd84e27ca6df2dd30651dafad28e0/instruction_following_eval",
+  "source_license": "Apache-2.0",
+  "dataset_license": "CC-BY-4.0",
+  "upstream_modifications": [],
+  "dataset_or_source_redistributed": false,
+  "evaluated_configuration": {
+    "provider": "DeepInfra",
+    "model": "zai-org/GLM-5.2",
+    "temperature": 0.72,
+    "top_p": 0.92,
+    "reasoning": "none",
+    "max_output_tokens": 2048,
+    "private_profile_conditioning_text": "Withheld; not part of the public export.",
+    "other_proprietary_configuration_content": "Withheld; not part of the public export."
+  }
+}
