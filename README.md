@@ -1,6 +1,6 @@
-# BUB × IFEval — proposed public summary
+# BUB × IFEval — public evaluation summary
 
-Prepared for review; not published. Publication has not been authorized.
+Published September 30, 2026 as a public-safe evaluation artifact.
 
 This is an aggregate evaluation of 540 valid responses from all 541 attempted IFEval prompts. It is not presented as a complete official 541-response IFEval score because one provider request ended in a preserved transport failure and was never retried.
 
@@ -49,4 +49,4 @@ Most scored responses satisfied every checked instruction, while measurable weak
 
 The evaluation process demonstrates explicit coverage accounting, separate treatment of operational failures and model outcomes, preservation of original evidence, and disclosure of scorer variability. Hash verification supports evidence consistency; it is not independent certification. No new generation or scoring was performed during finalization.
 
-The proposed export contains only this summary, aggregate results, aggregate instruction failure counts, the public provenance and evaluation settings listed above, and checksums. No prompts, responses, private profile/conditioning text, other proprietary configuration content, runtime material, credentials, or proprietary source are included.
+The public export contains only this summary, aggregate results, aggregate instruction failure counts, the public provenance and evaluation settings listed above, and checksums. No prompts, responses, private profile/conditioning text, other proprietary configuration content, runtime material, credentials, or proprietary source are included.

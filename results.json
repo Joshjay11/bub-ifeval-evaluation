@@ -1,5 +1,5 @@
 {
-  "artifact_status": "proposal_for_review_not_published",
+  "artifact_status": "published_public_evaluation",
   "evaluation": "BUB × IFEval",
   "qualification": "This is an aggregate evaluation of 540 valid responses from all 541 attempted IFEval prompts. It is not presented as a complete official 541-response IFEval score because one provider request ended in a preserved transport failure and was never retried.",
   "benchmark_prompts": 541,
