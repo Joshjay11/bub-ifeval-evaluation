@@ -50,3 +50,10 @@ Most scored responses satisfied every checked instruction, while measurable weak
 The evaluation process demonstrates explicit coverage accounting, separate treatment of operational failures and model outcomes, preservation of original evidence, and disclosure of scorer variability. Hash verification supports evidence consistency; it is not independent certification. No new generation or scoring was performed during finalization.
 
 The public export contains only this summary, aggregate results, aggregate instruction failure counts, the public provenance and evaluation settings listed above, and checksums. No prompts, responses, private profile/conditioning text, other proprietary configuration content, runtime material, credentials, or proprietary source are included.
+
+## Evaluation studies
+
+- [Bub IFEval evaluation](README.md#what-was-tested-and-why-it-matters): the existing instruction-following report and aggregate artifacts.
+- [Quintessence V1 Ablation](quintessence-v1-ablation/README.md): a 12-case comparison of four prompt conditions, with human-primary review and a secondary six-model judge panel.
+
+This repository publishes sanitized evaluation artifacts; private Bub prompt and source material remains withheld.
